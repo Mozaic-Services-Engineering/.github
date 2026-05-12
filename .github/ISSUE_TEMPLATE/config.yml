@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Engineering Operating Model
+    url: https://github.com/Mozaic-Services-Engineering/.github/blob/main/ENGINEERING-OPERATING-MODEL.md
+    about: Read the org-wide backlog, issue hierarchy, and sprint rules before opening a new issue.

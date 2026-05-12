@@ -1,0 +1,55 @@
+name: Bug Report
+description: Repo-owned bug or regression with clear reproduction.
+title: "[Bug]: "
+labels:
+  - type:bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the bug and why it matters.
+      placeholder: What is broken?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction / Evidence
+      description: Include steps, logs, screenshots, or links.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result
+      placeholder: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      placeholder: |
+        - ...
+        - ...
+    validations:
+      required: true
+  - type: input
+    id: parent
+    attributes:
+      label: Parent / Epic
+      description: Add the release-tracker parent if this bug belongs to cross-repo work.
+      placeholder: Mozaic-Services-Engineering/mozaic-release-tracker#123
+  - type: textarea
+    id: codex
+    attributes:
+      label: Codex Suitability Notes
+      description: Note safety constraints, environment needs, or why the fix is not ready yet.
+      placeholder: Test data, environment limits, or risky surfaces.
+    validations:
+      required: true
