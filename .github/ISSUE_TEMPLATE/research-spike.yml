@@ -1,0 +1,46 @@
+name: Research / Spike
+description: Time-boxed investigation or proof activity for a single repo.
+title: "[Spike]: "
+labels:
+  - type:research
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research Question
+      description: State what needs to be proven or understood.
+      placeholder: What are we trying to learn?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope / Approach
+      description: Describe the intended investigation path.
+      placeholder: Which code paths, environments, or documents should be checked?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      placeholder: |
+        - We know ...
+        - We decide ...
+        - We raise follow-up issues for ...
+    validations:
+      required: true
+  - type: input
+    id: parent
+    attributes:
+      label: Parent / Epic
+      description: Add the release-tracker parent if this is part of a broader initiative.
+      placeholder: Mozaic-Services-Engineering/mozaic-release-tracker#123
+  - type: textarea
+    id: codex
+    attributes:
+      label: Codex Suitability Notes
+      description: Call out unknowns, external dependencies, or the reason this needs human shaping first.
+      placeholder: What should an agent avoid assuming?
+    validations:
+      required: true

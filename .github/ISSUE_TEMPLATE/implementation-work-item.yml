@@ -1,0 +1,62 @@
+name: Implementation Work Item
+description: Repo-owned engineering work for features, stories, tasks, or technical debt.
+title: "[Task]: "
+labels:
+  - type:feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for single-repo implementation work. If the work is cross-repo, governance-focused, or ownership is unclear, start in `mozaic-release-tracker` instead.
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective / Problem
+      description: Describe the change or problem this repo needs to address.
+      placeholder: What needs to happen, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope / Context
+      description: Add implementation context, constraints, or links.
+      placeholder: Relevant routes, services, screens, docs, or known constraints.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: List the conditions that make this work complete.
+      placeholder: |
+        - ...
+        - ...
+    validations:
+      required: true
+  - type: input
+    id: parent
+    attributes:
+      label: Parent / Epic
+      description: Link the parent tracker issue if this belongs under a release-tracker item.
+      placeholder: Mozaic-Services-Engineering/mozaic-release-tracker#123
+  - type: dropdown
+    id: work_type
+    attributes:
+      label: Suggested Work Type
+      options:
+        - Feature
+        - Tech Debt
+        - Infra
+        - UX
+        - Documentation
+        - Testing
+        - Research / Spike
+  - type: textarea
+    id: codex
+    attributes:
+      label: Codex Suitability Notes
+      description: Note anything a coding agent should know before taking this on.
+      placeholder: Dependencies, blocked decisions, unsafe areas, or why the task is or is not Codex-ready.
+    validations:
+      required: true
