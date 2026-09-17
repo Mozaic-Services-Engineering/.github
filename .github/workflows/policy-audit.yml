@@ -1,0 +1,21 @@
+name: Policy Audit
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  checks: read
+  issues: read
+  pull-requests: read
+  statuses: read
+
+jobs:
+  policy-audit:
+    uses: Mozaic-Services-Engineering/mozaic-github-workflows/.github/workflows/policy-audit.yml@096ce1a21d0b8efcf572409e4ed8ca52bbafa2d5
+    with:
+      requires_agents: false
+      agents_contract_version: none
+      shared_workflows: false
+      uses_terraform_role_in_ci: false

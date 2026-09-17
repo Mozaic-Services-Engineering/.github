@@ -1,8 +1,7 @@
-# Mozaic PR risk hints for the Independent PR Reviewer Agent Trial.
-# Canonical policy: https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/governance/independent-pr-reviewer-agent-trial.md
+# Mozaic PR risk hints for the Independent PR Reviewer Agent Policy.
+# Canonical policy: https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/governance/independent-pr-reviewer-agent-policy.md
 version: 1
-policy: independent-pr-reviewer-agent-trial
-
+policy: independent-pr-reviewer-agent-policy
 high_risk:
   requires_named_human_approval: true
   paths:
