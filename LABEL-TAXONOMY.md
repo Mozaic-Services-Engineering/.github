@@ -2,6 +2,10 @@
 
 Project fields should carry most workflow state. Labels should stay small, stable, and useful for cross-repo search.
 
+The native Issue Type is the authority for an issue's type, and the title follows the pattern in
+[§10.2](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#102-title-pattern).
+`type:*` labels are optional search aids and never replace the Issue Type.
+
 ## Org-Wide Baseline
 
 ### Type
@@ -57,4 +61,4 @@ Project fields should carry most workflow state. Labels should stay small, stabl
 
 - Do not use repo-specific `status:*` labels as the main workflow system.
 - Use the project `Status` field instead.
-- Do not introduce app labels where the project `Product/App` field already carries that meaning.
+- Do not introduce app labels where a project field already carries that meaning.

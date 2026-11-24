@@ -4,27 +4,30 @@
 
 - SharePoint remains the business-facing intake layer.
 - GitHub Issues and GitHub Projects are the engineering source of truth.
-- `mozaic-release-tracker` holds epics, programmes, governance work, cross-repo parent issues, and unclear-ownership intake.
-- Repo-local issues hold single-repo implementation work.
+- Issue location, linking and format follow the
+  [GitHub Issue and Project Operating Model](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md)
+  in `mozaic-platform-docs`. Where this page and that document differ, that
+  document wins.
 
 ## Where To Create Work
 
-- Create the issue in the owning repo when the implementation repo is already clear.
-- Create or use a parent issue in `mozaic-release-tracker` when the work is cross-repo, governance-focused, or ownership is unclear.
-- Keep simple single-repo bugs in the owning repo unless they are part of a wider cross-repo incident.
+Follow
+[§5.1 Location Rules](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#51-location-rules)
+and write the issue in the format for its Issue Type in
+[§10 Issue Content Contracts](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#10-issue-content-contracts).
 
 ## Project Rules
 
-- Use `Mozaic Engineering Backlog` as the org-level engineering backlog and sprint-planning project.
-- Use the `Sprint` iteration field for sprint planning.
+- Add the issue to the GitHub Project that plans its work.
+- Use the project's `Sprint` iteration field for sprint planning.
 - Leave unscheduled items with no sprint instead of inventing a placeholder sprint.
 - Use milestones for releases, go-live targets, and other delivery dates. Do not use milestones as sprint buckets.
 
 ## Linking Rules
 
-- Repo issues should reference the parent tracker issue when the work belongs to a broader initiative.
+- Use native parent, sub-issue and dependency links, as in
+  [§7 Relationships And Dependencies](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#7-relationships-and-dependencies).
 - PRs should link to the repo issue they implement.
-- Where relevant, PRs should also reference the tracker parent for traceability.
 
 ## Codex Working Style
 

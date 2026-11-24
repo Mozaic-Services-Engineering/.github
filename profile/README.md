@@ -28,10 +28,10 @@ If you are part of the Mozaic engineering team, start here:
 
 - [Engineering Home](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/README.md)
 - [New Team Member Route](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/new-team-member-route.md)
-- [Mozaic Engineering Backlog](https://github.com/orgs/Mozaic-Services-Engineering/projects/1)
+- [Engineering Projects](https://github.com/orgs/Mozaic-Services-Engineering/projects)
+- [Issue And Project Operating Model](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md)
 - [Local Estate Setup](https://github.com/Mozaic-Services-Engineering/mozaic-local-orchestrator/blob/main/local/docs/FIRST_TIME_DEV_SETUP.md)
 - [Release Tracker](https://github.com/Mozaic-Services-Engineering/mozaic-release-tracker)
-- [Engineering Backlog Operating Model](https://github.com/Mozaic-Services-Engineering/mozaic-release-tracker/blob/main/docs/engineering-backlog-operating-model.md)
 
 ## Public Routes
 
