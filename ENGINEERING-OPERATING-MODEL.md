@@ -17,7 +17,9 @@ defined in the
 in `mozaic-platform-docs`. Where this page and that document differ, that
 document wins.
 
-- Issue Types and hierarchy: §4 and §6.1.
+- Issue Types and hierarchy:
+  [§4 The Golden Thread](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#4-the-golden-thread) and
+  [§6.1 Canonical Issue Types](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#61-canonical-issue-types).
 - Where an issue lives:
   [§5.1 Location Rules](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#51-location-rules).
 - Parent, child and dependency links:

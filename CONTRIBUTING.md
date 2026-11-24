@@ -29,7 +29,7 @@ and write the issue in the format for its Issue Type in
   [§7 Relationships And Dependencies](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#7-relationships-and-dependencies).
 - PRs should link to the repo issue they implement.
 
-## Codex Working Style
+## Working Style
 
 - Shape work clearly before marking it ready for execution.
 - Keep acceptance criteria explicit and testable.

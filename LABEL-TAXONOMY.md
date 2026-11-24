@@ -6,6 +6,11 @@ The native Issue Type is the authority for an issue's type, and the title follow
 [§10.2](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#102-title-pattern).
 `type:*` labels are optional search aids and never replace the Issue Type.
 
+The Priority Issue Field is the authority for priority, including Bug severity
+([§6.2](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#62-canonical-issue-fields), [§10.7](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#107-bug)).
+`priority:*` and `severity:*` labels are transitional search aids only and are
+not set as metadata alongside the field.
+
 ## Org-Wide Baseline
 
 ### Type
@@ -54,7 +59,7 @@ The native Issue Type is the authority for an issue's type, and the title follow
 
 `mozaic-release-tracker` may keep tracker-specific labels where they still help with intake or governance, such as:
 
-- `severity:*`
+- `severity:*` (transitional; see the Priority note above)
 - temporary triage labels
 
 ## Avoid
