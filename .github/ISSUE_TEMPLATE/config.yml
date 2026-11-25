@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Engineering Operating Model
-    url: https://github.com/Mozaic-Services-Engineering/.github/blob/main/ENGINEERING-OPERATING-MODEL.md
-    about: Read the org-wide backlog, issue hierarchy, and sprint rules before opening a new issue.
+  - name: Issue format (operating model §10)
+    url: https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#10-issue-content-contracts
+    about: Title pattern, Issue Fields and ordered headings for each Issue Type.
+  - name: Where to open an issue (operating model §5.1)
+    url: https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#51-location-rules
+    about: Check which repository owns the work before opening an issue here.
