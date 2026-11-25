@@ -54,7 +54,7 @@ Transitional search aids only; the Priority Issue Field is the authority.
 These are search aids only. Native blocked-by links are the authority for
 dependencies ([§7](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#7-relationships-and-dependencies)),
 and the Delivery readiness Issue Field is the authority for readiness. The
-`*-codex-*` labels are legacy and runtime-specific; do not apply them to new issues.
+`good-first-codex-task` and `not-suitable-for-codex` labels are legacy and runtime-specific; do not apply them to new issues.
 
 - `blocked`
 - `needs-human-review`
