@@ -24,7 +24,7 @@ These three sections are machine-read, so keep to that shape.
 
 ## User story
 
-As a <user or operator>, I want <capability>, so that <benefit>.
+As a [user or operator], I want [capability], so that [benefit].
 
 ## Intended result
 

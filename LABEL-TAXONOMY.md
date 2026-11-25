@@ -8,8 +8,8 @@ The native Issue Type is the authority for an issue's type, and the title follow
 
 The Priority Issue Field is the authority for priority, including Bug severity
 ([§6.2](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#62-canonical-issue-fields), [§10.7](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#107-bug)).
-`priority:*` and `severity:*` labels are transitional search aids only and are
-not set as metadata alongside the field.
+`priority:*` and `severity:*` labels are transitional: they may be applied for
+search, but they are never the source of priority or severity.
 
 ## Org-Wide Baseline
 
@@ -27,6 +27,8 @@ not set as metadata alongside the field.
 - `type:research`
 
 ### Priority
+
+Transitional search aids only; the Priority Issue Field is the authority.
 
 - `priority:p1`
 - `priority:p2`
@@ -48,6 +50,11 @@ not set as metadata alongside the field.
 - `area:docs`
 
 ### Coordination
+
+These are search aids only. Native blocked-by links are the authority for
+dependencies ([§7](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#7-relationships-and-dependencies)),
+and the Delivery readiness Issue Field is the authority for readiness. The
+`*-codex-*` labels are legacy and runtime-specific; do not apply them to new issues.
 
 - `blocked`
 - `needs-human-review`
