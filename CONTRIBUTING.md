@@ -15,6 +15,8 @@ Follow
 [§5.1 Location Rules](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#51-location-rules)
 and write the issue in the format for its Issue Type in
 [§10 Issue Content Contracts](https://github.com/Mozaic-Services-Engineering/mozaic-platform-docs/blob/main/docs/engineering/operating-model/consultancy-on-tap/github-issue-and-project-operating-model.md#10-issue-content-contracts).
+In repositories that use the organisation defaults, choose the issue template
+for the Issue Type. It sets the Type, the title prefix and the §10 headings.
 
 ## Project Rules
 
